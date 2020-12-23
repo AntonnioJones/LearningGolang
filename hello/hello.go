@@ -1,12 +1,13 @@
 package main
 
-import ( 
+import (
     "fmt"
-    "../greetings/greetings.go"
+
+    "example.com/greetings"
 )
 
-
 func main() {
+    // Get a greeting message and print it.
     message := greetings.Hello("Gladys")
     fmt.Println(message)
 }
